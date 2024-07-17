@@ -24,13 +24,13 @@
            MeterInputClipBrush: #ff3535;
             MeterInputLightPen: #ff9999;
              MeterInputDarkPen: #993d3d;
-               MeterBackground: #c0c0c0;
                 MeterOutputPen: #46cc46;
               MeterOutputBrush: #46cc46;
            MeterOutputRMSBrush: #66ff66;
           MeterOutputClipBrush: #ff3535;
            MeterOutputLightPen: #99ff99;
             MeterOutputDarkPen: #3da43d;
+               MeterBackground: #f0f0f0;
                      AxisLines: #0000ff;
                     GraphLines: #6e6edc;
                  ResponseLines: #00ff00;
@@ -80,6 +80,7 @@
                    GraphLabels: #000000;
              SpectroBackground: #ffff14;
                     ScrubRuler: #e4e4e4;
+                 RulerSelected: #9295a6;
                      TimeHours: #b0b0b0;
                      MidiZebra: #808080;
                      MidiLines: #3c3c98;
@@ -113,4 +114,6 @@
           BeatFillWeakSelBrush: #d5e3ff;
                    LoopEnabled: #e0e1e5;
                 LoopNotEnabled: #c2cbf4;
+                       Grabber: #9295a6;
+       TimelineRulerBackground: #e9e9eb;
 }
