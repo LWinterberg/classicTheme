@@ -3,18 +3,21 @@
                     Unselected: #404040;
                       Selected: #8b8571;
                         Sample: #ff9329;
+                       Sample2: #A00A0A;
+                       Sample3: #236E23;
+                       Sample4: #000000;
                      SelSample: #f8fcdd;
                     DragSample: #000000;
                     MuteSample: #7e7e80;
                            Rms: #feb144;
+                          Rms2: #E65050;
+                          Rms3: #4BC84B;
+                          Rms4: #646464;
                        MuteRms: #9b9b9d;
-                        Shadow: #4a4a4a;
                AboutBackground: #adadad;
                 TrackPanelText: #fedfb2;
                 LabelTrackText: #000000;
                      MeterPeak: #6666ff;
-              MeterDisabledPen: #c0c0c0;
-            MeterDisabledBrush: #a0a0a0;
                  MeterInputPen: #cc4646;
                MeterInputBrush: #cc4646;
             MeterInputRMSBrush: #ff6666;
@@ -34,6 +37,7 @@
                         HzPlot: #8c3cbe;
                 WavelengthPlot: #c83296;
                 EnvelopeColour: #fedfb2;
+            EnvelopeBackground: #303030;
               MuteButtonActive: #a0aad2;
               MuteButtonVetoed: #b4b4b9;
                      CursorPen: #000000;
@@ -53,8 +57,6 @@
             LabelTextEditBrush: #ffffff;
           LabelUnselectedBrush: #606060;
             LabelSelectedBrush: #8b8571;
-            LabelUnselectedPen: #606060;
-              LabelSelectedPen: #8b8571;
               LabelSurroundPen: #000000;
                    TrackFocus0: #a2a269;
                    TrackFocus1: #90906e;
@@ -73,16 +75,15 @@
                   ProgressDone: #3cf03c;
                 ProgressNotYet: #ffffff;
                    SyncLockSel: #8b8571;
-                SelTranslucent: #686894;
                  BlankSelected: #605d60;
                    SliderLight: #3c3c3c;
                     SliderMain: #a0a0a0;
                     SliderDark: #141414;
                TrackBackground: #404040;
-                  Placeholder1: #ffff14;
                    GraphLabels: #000000;
              SpectroBackground: #ffff14;
                     ScrubRuler: #6a6a6a;
+                 RulerSelected: #9295a6;
                      TimeHours: #b0b0b0;
                       FocusBox: #ffff14;
                  TrackNameText: #ffff14;
@@ -103,6 +104,7 @@
  ClipAffordanceUnselectedBrush: #626262;
    ClipAffordanceSelectedBrush: #797979;
           ClipAffordanceStroke: #ffffff;
+          ClipAffordanceButton: #636b85;
        LabelTrackTextSelection: #b7cae2;
                   ClipNameText: #fedfb2;
          ClipNameTextSelection: #b7cae2;
@@ -115,4 +117,9 @@
              BeatFillWeakBrush: #464646;
         BeatFillStrongSelBrush: #8b8571;
           BeatFillWeakSelBrush: #7a7564;
+                   LoopEnabled: #4a4d59; 
+                LoopNotEnabled: #292e33;
+                       Grabber: #9295a6;
+       TimelineRulerBackground: #292e33;
+               MeterBackground: #404040;
 }
